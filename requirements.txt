@@ -1,0 +1,11 @@
+Flask==1.1.1
+gunicorn==19.9.0
+line-bot-sdk==1.14.0
+psycopg2==2.8.6
+numpy==1.19.4
+Pillow==8.0.1
+urllib3==1.26.6
+pandas
+datetime
+APScheduler==3.0.0
+tzlocal==2.1  #需使用較低版本tzlocal 否則會TypeError('Only timezones from the pytz library are supported')
